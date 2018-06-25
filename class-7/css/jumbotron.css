@@ -1,0 +1,68 @@
+body {
+    margin-top: 55px;
+}
+
+.container, .container-fluid,  .jumbotron {
+    margin-top: 40px;
+    max-width: 1024px;
+}
+
+.container .row div, .container-fluid .row div {
+    padding: 20px 10px;
+    border: 1px solid #000;
+}
+
+.container-fluid {
+    margin-top: 40px;
+    background-color: #cecece;
+}
+
+.jumbotron, .jumbotron-fluid {
+    background-image: url(../img/nyc.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    padding-top: 4px;
+}
+
+/* .test p {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+} */
+
+.figure img {
+    width: 100%;
+}
+
+.modal {
+    margin-top: 7rem;
+}
+
+/* .card-body {
+    height: 100%;
+} */
+
+@media (max-width: 990px) {
+    .navbar {
+        background-color: transparent;
+    }
+
+    .navbar-nav {
+        padding: 20px;
+        width: 200px;
+        background-color: rgba(255, 255, 255, .95);
+    }
+}

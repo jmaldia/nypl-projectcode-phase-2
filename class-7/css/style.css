@@ -1,0 +1,17 @@
+.container {
+    margin-top: 40px;
+}
+
+.container .row div, .container-fluid .row div {
+    padding: 20px 10px;
+    border: 1px solid #000;
+}
+
+.container .row:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+.container-fluid {
+    margin-top: 40px;
+    background-color: #cecece;
+}
