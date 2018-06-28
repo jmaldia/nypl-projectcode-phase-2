@@ -6,7 +6,6 @@ var age = document.getElementById('birthdayNumber');
 var you = document.getElementById('yourName');
 var bdayH1 = document.getElementById('birthday-h1');
 var myClass = document.getElementsByClassName('my-class');
-console.log(document.getElementsByClassName('my-class'));
 
 
 message.innerHTML = 'It\'s been replaced';
@@ -18,7 +17,7 @@ setTimeout(() => { you.innerHTML = 'JON' }, 5000);
 document.write("WTF!");
 
 for (let x = 0; x < myClass.length; x++) {
-    x.style.color = 'red';
+    myClass[x].innerHTML = 'red ' + x;
 };
 
 
