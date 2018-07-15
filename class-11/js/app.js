@@ -12,6 +12,8 @@ let buttonFour = $('.btn4');
 
 let redDiv = $('.red');
 
+let container =$('.container');
+
 $(document).ready(() => {
     buttonOne.on('click', () => {
         headingTwo.first().css({
@@ -58,6 +60,11 @@ $(document).ready(() => {
             });
         }
     });
+
+    $(window).scroll(() => {
+        redDiv.toggleClass('transform');
+        console.log('It works!!!');
+    })
 
     redDiv.click(() => {
         redDiv.toggleClass('transform');

@@ -9,12 +9,12 @@
     height: 300px;
     margin: 50px auto;
     background-color: red;
-    transition: 2000ms;
+    transition: 1500ms;
 }
 
 .transform {
     transform: rotate(20deg) translate(200px,0px) scale(.75);
-    transition: 2000ms;
+    transition: 1500ms;
     background-color: blue;
     border-radius: 15px;
 }
